@@ -32,6 +32,7 @@
   <a href="https://www.instagram.com/teagohenrique/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   
   ![Snake animation](https://github.com/teeagohenrique/teeagohenrique/blob/output/github-contribution-grid-snake.svg)
+ 
 </div>
-  
+ 
 [![readme](https://github-readme-stats.vercel.app/api/pin/?username=TEEAGOHENRIQUE&repo=TEEAGOHENRIQUE&theme=react)](https://github.com/TEEAGOHENRIQUE/TEEAGOHENRIQUE)
