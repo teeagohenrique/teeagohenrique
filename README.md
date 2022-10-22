@@ -1,4 +1,4 @@
-<h1> Hi! My name is Thiago. </h1>
+<h1> Hi! I'm Thiago. U+270C </h1>
 
 <div>
   <a href="https://github.com/teeagohenrique">
