@@ -1,7 +1,7 @@
 ### Hello, Guys! 👋
 #### Welcome to my GitHub profile ✌
 
-###### EN: I am a graduate of the CESAR School's NExT program. In addition, I am a computer science student.<br>PT: _Sou concluinte do NExT, da CESAR School. Além disso, sou estudante de Ciêcia da computação.
+###### EN: I am a graduate of the CESAR School's NExT program. In addition, I am a computer science student.<br>PT: _Sou concluinte do NExT, da CESAR School. Além disso, sou formado em Ciêcia da computação.
 
 <div style="display: inline_block"><br>
 
