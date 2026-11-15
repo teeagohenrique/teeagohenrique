@@ -1,31 +1,14 @@
 <svg xmlns="http://w3.org" width="435" height="50" viewBox="0 0 435 50">
   <style>
-    .container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
+    .texto {
       font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 20px;
-      color: #57606a;
+      fill: #57606a;
       letter-spacing: 0.5px;
     }
 
-    .texto {
-      display: inline-block;
-      overflow: hidden;
-      white-space: nowrap;
-      width: 0ch;
-      animation: digitar 25.5s steps(12, end) infinite;
-    }
-
     .cursor {
-      display: inline-block;
-      width: 11px;
-      height: 15px;
-      background-color: #1a7f37;
-      margin-left: 8px;
+      fill: #1a7f37;
       animation: piscar 0.8s infinite;
     }
 
@@ -34,62 +17,136 @@
       50%, 100% { opacity: 0; }
     }
 
-    .texto::before {
-      content: "...Thiago...";
-      animation: trocar-palavras 25.5s infinite;
+    /* Controle de visibilidade de cada palavra */
+    .p1 { opacity: 0; animation: vis1 25.5s infinite; }
+    .p2 { opacity: 0; animation: vis2 25.5s infinite; }
+    .p3 { opacity: 0; animation: vis3 25.5s infinite; }
+    .p4 { opacity: 0; animation: vis4 25.5s infinite; }
+    .p5 { opacity: 0; animation: vis5 25.5s infinite; }
+    .p6 { opacity: 0; animation: vis6 25.5s infinite; }
+
+    @keyframes vis1 { 0%, 20.5% { opacity: 1; } 20.6%, 100% { opacity: 0; } }
+    @keyframes vis2 { 0%, 20.5% { opacity: 0; } 20.6%, 33.3% { opacity: 1; } 33.4%, 100% { opacity: 0; } }
+    @keyframes vis3 { 0%, 33.3% { opacity: 0; } 33.4%, 53.9% { opacity: 1; } 54.0%, 100% { opacity: 0; } }
+    @keyframes vis4 { 0%, 53.9% { opacity: 0; } 54.0%, 66.6% { opacity: 1; } 66.7%, 100% { opacity: 0; } }
+    @keyframes vis5 { 0%, 66.6% { opacity: 0; } 66.7%, 87.2% { opacity: 1; } 87.3%, 100% { opacity: 0; } }
+    @keyframes vis6 { 0%, 87.2% { opacity: 0; } 87.3%, 100% { opacity: 1; } }
+
+    /* Animação da máscara de revelação e movimento do cursor */
+    .corte {
+      animation: digitar-corte 25.5s infinite;
     }
 
-    @keyframes trocar-palavras {
-      0%, 20.5% { content: "...Thiago..."; }
-      20.6%, 33.3% { content: "..."; }
-      33.4%, 53.9% { content: "...THIAGO..."; }
-      54.0%, 66.6% { content: "..."; }
-      66.7%, 87.2% { content: "...thiago..."; }
-      87.3%, 100% { content: "..."; }
+    .cursor-grupo {
+      animation: mover-cursor 25.5s infinite;
     }
 
-    @keyframes digitar {
-      0% { width: 0ch; animation-timing-function: steps(12, end); }
-      4.7% { width: 12ch; }
-      12.5% { width: 12ch; animation-timing-function: steps(12, end); }
-      14.9% { width: 0ch; }
-      20.5% { width: 0ch; }
+    /* 12 chars = ~150px | 3 chars = ~38px */
+    @keyframes digitar-corte {
+      /* Palavra 1: ...Thiago... */
+      0% { width: 0px; animation-timing-function: steps(12, end); }
+      4.7% { width: 150px; }
+      12.5% { width: 150px; animation-timing-function: steps(12, end); }
+      14.9% { width: 0px; }
+      20.5% { width: 0px; }
 
-      20.6% { width: 0ch; animation-timing-function: steps(3, end); }
-      21.8% { width: 3ch; }
-      29.6% { width: 3ch; animation-timing-function: steps(3, end); }
-      30.2% { width: 0ch; }
-      33.3% { width: 0ch; }
+      /* Palavra 2: ... */
+      20.6% { width: 0px; animation-timing-function: steps(3, end); }
+      21.8% { width: 38px; }
+      29.6% { width: 38px; animation-timing-function: steps(3, end); }
+      30.2% { width: 0px; }
+      33.3% { width: 0px; }
 
-      33.4% { width: 0ch; animation-timing-function: steps(12, end); }
-      38.1% { width: 12ch; }
-      45.9% { width: 12ch; animation-timing-function: steps(12, end); }
-      48.3% { width: 0ch; }
-      53.9% { width: 0ch; }
+      /* Palavra 3: ...THIAGO... */
+      33.4% { width: 0px; animation-timing-function: steps(12, end); }
+      38.1% { width: 150px; }
+      45.9% { width: 150px; animation-timing-function: steps(12, end); }
+      48.3% { width: 0px; }
+      53.9% { width: 0px; }
 
-      54.0% { width: 0ch; animation-timing-function: steps(3, end); }
-      55.2% { width: 3ch; }
-      63.0% { width: 3ch; animation-timing-function: steps(3, end); }
-      63.6% { width: 0ch; }
-      66.6% { width: 0ch; }
+      /* Palavra 4: ... */
+      54.0% { width: 0px; animation-timing-function: steps(3, end); }
+      55.2% { width: 38px; }
+      63.0% { width: 38px; animation-timing-function: steps(3, end); }
+      63.6% { width: 0px; }
+      66.6% { width: 0px; }
 
-      66.7% { width: 0ch; animation-timing-function: steps(12, end); }
-      71.4% { width: 12ch; }
-      79.2% { width: 12ch; animation-timing-function: steps(12, end); }
-      81.6% { width: 0ch; }
-      87.2% { width: 0ch; }
+      /* Palavra 5: ...thiago... */
+      66.7% { width: 0px; animation-timing-function: steps(12, end); }
+      71.4% { width: 150px; }
+      79.2% { width: 150px; animation-timing-function: steps(12, end); }
+      81.6% { width: 0px; }
+      87.2% { width: 0px; }
 
-      87.3% { width: 0ch; animation-timing-function: steps(3, end); }
-      88.5% { width: 3ch; }
-      96.3% { width: 3ch; animation-timing-function: steps(3, end); }
-      96.9% { width: 0ch; }
-      100% { width: 0ch; }
+      /* Palavra 6: ... */
+      87.3% { width: 0px; animation-timing-function: steps(3, end); }
+      88.5% { width: 38px; }
+      96.3% { width: 38px; animation-timing-function: steps(3, end); }
+      96.9% { width: 0px; }
+      100% { width: 0px; }
+    }
+
+    @keyframes mover-cursor {
+      /* Palavra 1 */
+      0% { transform: translateX(0px); animation-timing-function: steps(12, end); }
+      4.7% { transform: translateX(150px); }
+      12.5% { transform: translateX(150px); animation-timing-function: steps(12, end); }
+      14.9% { transform: translateX(0px); }
+      20.5% { transform: translateX(0px); }
+
+      /* Palavra 2 */
+      20.6% { transform: translateX(0px); animation-timing-function: steps(3, end); }
+      21.8% { transform: translateX(38px); }
+      29.6% { transform: translateX(38px); animation-timing-function: steps(3, end); }
+      30.2% { transform: translateX(0px); }
+      33.3% { transform: translateX(0px); }
+
+      /* Palavra 3 */
+      33.4% { transform: translateX(0px); animation-timing-function: steps(12, end); }
+      38.1% { transform: translateX(150px); }
+      45.9% { transform: translateX(150px); animation-timing-function: steps(12, end); }
+      48.3% { transform: translateX(0px); }
+      53.9% { transform: translateX(0px); }
+
+      /* Palavra 4 */
+      54.0% { transform: translateX(0px); animation-timing-function: steps(3, end); }
+      55.2% { transform: translateX(38px); }
+      63.0% { transform: translateX(38px); animation-timing-function: steps(3, end); }
+      63.6% { transform: translateX(0px); }
+      66.6% { transform: translateX(0px); }
+
+      /* Palavra 5 */
+      66.7% { transform: translateX(0px); animation-timing-function: steps(12, end); }
+      71.4% { transform: translateX(150px); }
+      79.2% { transform: translateX(150px); animation-timing-function: steps(12, end); }
+      81.6% { transform: translateX(0px); }
+      87.2% { transform: translateX(0px); }
+
+      /* Palavra 6 */
+      87.3% { transform: translateX(0px); animation-timing-function: steps(3, end); }
+      88.5% { transform: translateX(38px); }
+      96.3% { transform: translateX(38px); animation-timing-function: steps(3, end); }
+      96.9% { transform: translateX(0px); }
+      100% { transform: translateX(0px); }
     }
   </style>
 
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://w3.org" class="container">
-      <span class="texto"></span><span class="cursor"></span>
-    </div>
-  </foreignObject>
+  <defs>
+    <clipPath id="area-texto">
+      <rect class="corte" x="135" y="0" width="0" height="50" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#area-texto)">
+    <text x="135" y="32" class="texto p1">...Thiago...</text>
+    <text x="135" y="32" class="texto p2">...</text>
+    <text x="135" y="32" class="texto p3">...THIAGO...</text>
+    <text x="135" y="32" class="texto p4">...</text>
+    <text x="135" y="32" class="texto p5">...thiago...</text>
+    <text x="135" y="32" class="texto p6">...</text>
+  </g>
+
+  <g class="cursor-grupo">
+    <rect class="cursor" x="143" y="17" width="11" height="15" />
+  </g>
 </svg>
