@@ -1,8 +1,9 @@
 <table align="center">
   <tr>
     <td align="left" valign="middle" width="460">
-     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Cormorant+Garamond&size=40&pause=100&color=0B2531&center=true&width=435&lines=...Thiago..." alt="Typing SVG" />
-</a>
+     <a href="https://git.io/typing-svg">
+       <img src="./typing.svg" alt="Typing SVG" />
+       </a>
     </td>
     <td align="right" valign="middle">
        <img src="https://github.com/user-attachments/assets/9308874c-eaa3-4930-9c6e-da81663bf02b" alt="Heptapod Logograma THMS" width="150" />
