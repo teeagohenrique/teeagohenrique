@@ -1,11 +1,11 @@
 # Thiago Henrique Melo
 
-**Engenheiro de Software | Desenvolvedor Python & Agentes de IA**  
+
 *B.S. Ciência da Computação & Graduando em Psicologia (5º período)*
 
 ---
 
-Atuo no desenvolvimento de software e Inteligência Artificial, com foco em arquiteturas de backend, integrações de APIs e construção de agentes autônomos. 
+Atuo no desenvolvimento e aprimoramento de software e Inteligência Artificial, com foco em arquiteturas de backend, integrações de APIs e construção de agentes autônomos. 
 
 Tenho interesse na intersecção entre tecnologia, cognição e saúde mental (visão biopsicossocial), priorizando sistemas éticos, código limpo e arquitetura segura.
 
