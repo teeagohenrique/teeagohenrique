@@ -1,4 +1,4 @@
-# Thiago Melo
+# Thiago Henrique Melo
 
 **Engenheiro de Software | Desenvolvedor Python & Agentes de IA**  
 *B.S. Ciência da Computação & Graduando em Psicologia (5º período)*
