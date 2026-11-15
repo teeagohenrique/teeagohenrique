@@ -1,0 +1,95 @@
+<svg xmlns="http://w3.org" width="435" height="50" viewBox="0 0 435 50">
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      font-family: 'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 20px;
+      color: #57606a;
+      letter-spacing: 0.5px;
+    }
+
+    .texto {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0ch;
+      animation: digitar 25.5s steps(12, end) infinite;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 11px;
+      height: 15px;
+      background-color: #1a7f37;
+      margin-left: 8px;
+      animation: piscar 0.8s infinite;
+    }
+
+    @keyframes piscar {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+
+    .texto::before {
+      content: "...Thiago...";
+      animation: trocar-palavras 25.5s infinite;
+    }
+
+    @keyframes trocar-palavras {
+      0%, 20.5% { content: "...Thiago..."; }
+      20.6%, 33.3% { content: "..."; }
+      33.4%, 53.9% { content: "...THIAGO..."; }
+      54.0%, 66.6% { content: "..."; }
+      66.7%, 87.2% { content: "...thiago..."; }
+      87.3%, 100% { content: "..."; }
+    }
+
+    @keyframes digitar {
+      0% { width: 0ch; animation-timing-function: steps(12, end); }
+      4.7% { width: 12ch; }
+      12.5% { width: 12ch; animation-timing-function: steps(12, end); }
+      14.9% { width: 0ch; }
+      20.5% { width: 0ch; }
+
+      20.6% { width: 0ch; animation-timing-function: steps(3, end); }
+      21.8% { width: 3ch; }
+      29.6% { width: 3ch; animation-timing-function: steps(3, end); }
+      30.2% { width: 0ch; }
+      33.3% { width: 0ch; }
+
+      33.4% { width: 0ch; animation-timing-function: steps(12, end); }
+      38.1% { width: 12ch; }
+      45.9% { width: 12ch; animation-timing-function: steps(12, end); }
+      48.3% { width: 0ch; }
+      53.9% { width: 0ch; }
+
+      54.0% { width: 0ch; animation-timing-function: steps(3, end); }
+      55.2% { width: 3ch; }
+      63.0% { width: 3ch; animation-timing-function: steps(3, end); }
+      63.6% { width: 0ch; }
+      66.6% { width: 0ch; }
+
+      66.7% { width: 0ch; animation-timing-function: steps(12, end); }
+      71.4% { width: 12ch; }
+      79.2% { width: 12ch; animation-timing-function: steps(12, end); }
+      81.6% { width: 0ch; }
+      87.2% { width: 0ch; }
+
+      87.3% { width: 0ch; animation-timing-function: steps(3, end); }
+      88.5% { width: 3ch; }
+      96.3% { width: 3ch; animation-timing-function: steps(3, end); }
+      96.9% { width: 0ch; }
+      100% { width: 0ch; }
+    }
+  </style>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://w3.org" class="container">
+      <span class="texto"></span><span class="cursor"></span>
+    </div>
+  </foreignObject>
+</svg>
