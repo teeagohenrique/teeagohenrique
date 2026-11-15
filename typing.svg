@@ -1,37 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="435" height="50" viewBox="0 0 435 50">
-  <defs>
-    <clipPath id="corte">
-      <rect x="135" y="0" width="0" height="50">
-        <animate attributeName="width" dur="24s" repeatCount="indefinite" calcMode="discrete"
-          values="0;12.5;25;37.5;50;62.5;75;87.5;100;112.5;125;137.5;150;150;137.5;125;112.5;100;87.5;75;62.5;50;37.5;25;12.5;0;0;12.5;25;38;38;25;12.5;0;0;12.5;25;37.5;50;62.5;75;87.5;100;112.5;125;137.5;150;150;137.5;125;112.5;100;87.5;75;62.5;50;37.5;25;12.5;0;0;12.5;25;38;38;25;12.5;0;0;12.5;25;37.5;50;62.5;75;87.5;100;112.5;125;137.5;150;150;137.5;125;112.5;100;87.5;75;62.5;50;37.5;25;12.5;0;0;12.5;25;38;38;25;12.5;0;0" />
-      </rect>
-    </clipPath>
-  </defs>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" fill="#57606a" letter-spacing="0.5">
+    
+    <!-- Etapa 1: ...Thiago... -->
+    <text x="135" y="32" opacity="0">.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.01" /></text>
+    <text x="135" y="32" opacity="0">..<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.01;0.02" /></text>
+    <text x="135" y="32" opacity="0">...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.02;0.03" /></text>
+    <text x="135" y="32" opacity="0">...T<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.03;0.04" /></text>
+    <text x="135" y="32" opacity="0">...Th<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.04;0.05" /></text>
+    <text x="135" y="32" opacity="0">...Thi<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.05;0.06" /></text>
+    <text x="135" y="32" opacity="0">...Thia<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.06;0.07" /></text>
+    <text x="135" y="32" opacity="0">...Thiag<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.07;0.08" /></text>
+    <text x="135" y="32" opacity="0">...Thiago<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.08;0.09" /></text>
+    <text x="135" y="32" opacity="0">...Thiago.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.09;0.10" /></text>
+    <text x="135" y="32" opacity="0">...Thiago..<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.10;0.11" /></text>
+    <text x="135" y="32" opacity="0">...Thiago...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.11;0.22" /></text>
+    <!-- Apagando 1 -->
+    <text x="135" y="32" opacity="0">...Thiago.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.22;0.23" /></text>
+    <text x="135" y="32" opacity="0">...Thiag<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.23;0.24" /></text>
+    <text x="135" y="32" opacity="0">...Thia<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.24;0.25" /></text>
+    <text x="135" y="32" opacity="0">...Th<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.25;0.26" /></text>
+    <text x="135" y="32" opacity="0">...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.26;0.34" /></text>
 
-  <g clip-path="url(#corte)" font-family="monospace" font-size="20" fill="#57606a" letter-spacing="0.5">
-    <text x="135" y="32" opacity="1">...Thiago...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="1;0;0;0;0;0" />
-    </text>
-    <text x="135" y="32" opacity="0">...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="0;1;0;0;0;0" />
-    </text>
-    <text x="135" y="32" opacity="0">...THIAGO...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="0;0;1;0;0;0" />
-    </text>
-    <text x="135" y="32" opacity="0">...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;1;0;0" />
-    </text>
-    <text x="135" y="32" opacity="0">...thiago...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;0;1;0" />
-    </text>
-    <text x="135" y="32" opacity="0">...
-      <animate attributeName="opacity" dur="24s" repeatCount="indefinite" calcMode="discrete" values="0;0;0;0;0;1" />
-    </text>
+    <!-- Etapa 2: ...THIAGO... -->
+    <text x="135" y="32" opacity="0">...T<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.34;0.35" /></text>
+    <text x="135" y="32" opacity="0">...TH<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.35;0.36" /></text>
+    <text x="135" y="32" opacity="0">...THI<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.36;0.37" /></text>
+    <text x="135" y="32" opacity="0">...THIA<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.37;0.38" /></text>
+    <text x="135" y="32" opacity="0">...THIAG<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.38;0.39" /></text>
+    <text x="135" y="32" opacity="0">...THIAGO<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.39;0.40" /></text>
+    <text x="135" y="32" opacity="0">...THIAGO.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.40;0.41" /></text>
+    <text x="135" y="32" opacity="0">...THIAGO..<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.41;0.42" /></text>
+    <text x="135" y="32" opacity="0">...THIAGO...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.42;0.53" /></text>
+    <!-- Apagando 2 -->
+    <text x="135" y="32" opacity="0">...THIAGO.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.53;0.54" /></text>
+    <text x="135" y="32" opacity="0">...THIAG<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.54;0.55" /></text>
+    <text x="135" y="32" opacity="0">...THIA<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.55;0.56" /></text>
+    <text x="135" y="32" opacity="0">...TH<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.56;0.57" /></text>
+    <text x="135" y="32" opacity="0">...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.57;0.66" /></text>
+
+    <!-- Etapa 3: ...thiago... -->
+    <text x="135" y="32" opacity="0">...t<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.66;0.67" /></text>
+    <text x="135" y="32" opacity="0">...th<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.67;0.68" /></text>
+    <text x="135" y="32" opacity="0">...thi<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.68;0.69" /></text>
+    <text x="135" y="32" opacity="0">...thia<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.69;0.70" /></text>
+    <text x="135" y="32" opacity="0">...thiag<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.70;0.71" /></text>
+    <text x="135" y="32" opacity="0">...thiago<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.71;0.72" /></text>
+    <text x="135" y="32" opacity="0">...thiago.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.72;0.73" /></text>
+    <text x="135" y="32" opacity="0">...thiago..<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.73;0.74" /></text>
+    <text x="135" y="32" opacity="0">...thiago...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.74;0.85" /></text>
+    <!-- Apagando 3 -->
+    <text x="135" y="32" opacity="0">...thiago.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.85;0.86" /></text>
+    <text x="135" y="32" opacity="0">...thiag<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.86;0.87" /></text>
+    <text x="135" y="32" opacity="0">...thia<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.87;0.88" /></text>
+    <text x="135" y="32" opacity="0">...th<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.88;0.89" /></text>
+    <text x="135" y="32" opacity="0">...<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.89;0.98" /></text>
+    <text x="135" y="32" opacity="0">..<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.98;0.99" /></text>
+    <text x="135" y="32" opacity="0">.<animate attributeName="opacity" dur="18s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.99;1" /></text>
   </g>
 
-  <rect x="143" y="17" width="11" height="15" fill="#1a7f37">
-    <animate attributeName="x" dur="24s" repeatCount="indefinite" calcMode="discrete"
-      values="143;155.5;168;180.5;193;205.5;218;230.5;243;255.5;268;280.5;293;293;280.5;268;255.5;243;230.5;218;205.5;193;180.5;168;155.5;143;143;155.5;168;181;181;168;155.5;143;143;155.5;168;180.5;193;205.5;218;230.5;243;255.5;268;280.5;293;293;280.5;268;255.5;243;230.5;218;205.5;193;180.5;168;155.5;143;143;155.5;168;181;181;168;155.5;143;143;155.5;168;180.5;193;205.5;218;230.5;243;255.5;268;280.5;293;293;280.5;268;255.5;243;230.5;218;205.5;193;180.5;168;155.5;143;143;155.5;168;181;181;168;155.5;143;143" />
+  <!-- Cursor retangular verde sincronizado com cada passo -->
+  <rect x="155" y="17" width="11" height="15" fill="#1a7f37">
+    <animate attributeName="x" dur="18s" repeatCount="indefinite" calcMode="discrete"
+      values="155;167;179;191;203;215;227;239;251;263;275;287;263;239;227;203;179;191;203;215;227;239;251;263;275;287;263;239;227;203;179;191;203;215;227;239;251;263;275;287;263;239;227;203;179;167;155"
+      keyTimes="0;0.01;0.02;0.03;0.04;0.05;0.06;0.07;0.08;0.09;0.10;0.11;0.22;0.23;0.24;0.25;0.26;0.34;0.35;0.36;0.37;0.38;0.39;0.40;0.41;0.42;0.53;0.54;0.55;0.56;0.57;0.66;0.67;0.68;0.69;0.70;0.71;0.72;0.73;0.74;0.85;0.86;0.87;0.88;0.89;0.98;0.99" />
     <animate attributeName="opacity" dur="0.8s" repeatCount="indefinite" calcMode="discrete" values="1;0" />
   </rect>
 </svg>
