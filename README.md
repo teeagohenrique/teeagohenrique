@@ -47,7 +47,7 @@ busca semântica (RAG). Construído com FastAPI, Supabase/pgvector e OpenAI, com
 atenção à LGPD e às resoluções do CFM.
 `Python` `FastAPI` `Supabase` `OpenAI` `RAG`
 
-**[Restaurante API](https://github.com/teeagohenrique/Restaurante-Projeto-Next)**
+**[Restaurante API](https://github.com/teeagohenrique/restaurante-api)**
 API REST de cardápio com CRUD, validação de entrada, tratamento de erros e
 testes de integração. Desenvolvida com Spring Boot, JPA e H2.
 `Java` `Spring Boot` `JPA` `H2` `Maven`
