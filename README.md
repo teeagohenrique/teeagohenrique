@@ -40,6 +40,14 @@ Evolution API (WhatsApp) · Google Cloud · Google Calendar API
 
 ## Projetos
 
+**[Human + Desk — Service Desk com IA](https://github.com/teeagohenrique/human-plus-desk)**
+Assistente de service desk em Python que prioriza chamados e sugere respostas com
+clareza e empatia. Máscara LGPD antes da chamada à IA, urgência escolhida pela
+analista, redator OARS com prazos em `[colchetes]`, auditoria em SQLite e
+calibração das leituras. Motor de regras offline e Gemini atrás da mesma
+interface.
+`Python` `Streamlit` `SQLite` `Gemini` `LGPD`
+
 **[CLAW — Assistente Clínico Digital](https://github.com/teeagohenrique/claw-assistente-clinico)**
 Assistente no WhatsApp que conduz a jornada do paciente: consentimento,
 agendamento, acompanhamento terapêutico, diário reflexivo e psicoeducação com
@@ -51,14 +59,6 @@ atenção à LGPD e às resoluções do CFM.
 API REST de cardápio com CRUD, validação de entrada, tratamento de erros e
 testes de integração. Desenvolvida com Spring Boot, JPA e H2.
 `Java` `Spring Boot` `JPA` `H2` `Maven`
-
-**[Human + Desk — Service Desk com IA](https://github.com/teeagohenrique/human-plus-desk)**
-Assistente de service desk em Python que prioriza chamados e sugere respostas com
-clareza e empatia. Máscara LGPD antes da chamada à IA, urgência escolhida pela
-analista, redator OARS com prazos em `[colchetes]`, auditoria em SQLite e
-calibração das leituras. Motor de regras offline e Gemini atrás da mesma
-interface.
-`Python` `Streamlit` `SQLite` `Gemini` `LGPD`
 
 ---
 
